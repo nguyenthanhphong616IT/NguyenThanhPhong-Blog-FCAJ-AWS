@@ -10,7 +10,7 @@ https://nguyenthanhphong616it.github.io/NguyenThanhPhong-Blog-FCAJ-AWS/
 **Lớp:** 22DTHA3
 **Chủ đề workshop:** Triển khai hệ thống SmartCV trên AWS Serverless
 **Chương trình:** Workforce Bootcamp - First Cloud AI Journey
-
+Link Workshop website của nhóm: https://smartcvknight.click/
 ## Giới thiệu
 
 Đây là blog cá nhân ghi lại quá trình thực tập, học tập và triển khai workshop AWS của em trong chương trình First Cloud AI Journey. Nội dung blog được xây dựng nhằm tổng hợp lại worklog hằng tuần, proposal dự án, các bài blog đã đăng, sự kiện đã tham gia và phần workshop cá nhân.
