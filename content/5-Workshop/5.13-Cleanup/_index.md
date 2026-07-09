@@ -8,7 +8,7 @@ pre: " <b> 5.13. </b> "
 
 After completing the Workshop, please delete all created AWS resources to avoid unexpected charges.
 
-#### 5.11.1. Empty and delete S3 Bucket
+#### 5.13.1. Empty and delete S3 Bucket
 
 1. Access **Amazon S3**.
 2. Select the bucket `smartcv-resumes-YOUR_NAME`.
@@ -18,7 +18,7 @@ After completing the Workshop, please delete all created AWS resources to avoid 
 
 ![S3](/images/5-Workshop/5.13-Cleanup/S3.jpg)
 
-#### 5.11.2. Delete AWS Amplify App
+#### 5.13.2. Delete AWS Amplify App
 
 1. Access **AWS Amplify**.
 2. Select the `smartcv-frontend` application.
@@ -27,7 +27,7 @@ After completing the Workshop, please delete all created AWS resources to avoid 
 
 ![Amplify](/images/5-Workshop/5.13-Cleanup/Amplify.jpg)
 
-#### 5.11.3. Delete Amazon Cognito User Pool
+#### 5.13.3. Delete Amazon Cognito User Pool
 
 1. Access **Amazon Cognito**.
 2. Select the `smartcv-users` User Pool.
@@ -35,7 +35,7 @@ After completing the Workshop, please delete all created AWS resources to avoid 
 
 ![Cognito](/images/5-Workshop/5.13-Cleanup/Cognito.jpg)
 
-#### 5.11.4. Delete DynamoDB Table
+#### 5.13.4. Delete DynamoDB Table
 
 1. Access **Amazon DynamoDB** → **Tables**.
 2. Select the `smartcv` table, click **Delete**.
@@ -43,14 +43,14 @@ After completing the Workshop, please delete all created AWS resources to avoid 
 
 ![DynamoDB](/images/5-Workshop/5.13-Cleanup/DatabaseClear.jpg)
 
-#### 5.11.5. Delete Lambda Functions
+#### 5.13.5. Delete Lambda Functions
 
 1. Access **AWS Lambda**.
 2. Select each function: `smartcv-applications`, `smartcv-insights`, `smartcv-settings`, `smartcv-notes`, `smartcv-digest`, `smartcv-followup`, `smartcv-cognito-verify`.
 3. Select **Actions** → **Delete** for each function.
 ![Lambda](/images/5-Workshop/5.13-Cleanup/LambdaClear.jpg)
 
-#### 5.11.7. Delete API Gateway
+#### 5.13.6. Delete API Gateway
 
 1. Access **API Gateway**.
 2. Select the `SmartCV API` API.
@@ -58,7 +58,7 @@ After completing the Workshop, please delete all created AWS resources to avoid 
 
 ![API Gateway](/images/5-Workshop/5.13-Cleanup/APIClear.jpg)
 
-#### 5.11.8. Delete IAM Role
+#### 5.13.7. Delete IAM Role
 
 1. Access **IAM** → **Roles**.
 2. Find `SmartCV-Lambda-Role`.
@@ -66,7 +66,7 @@ After completing the Workshop, please delete all created AWS resources to avoid 
 
 ![IAM Role](/images/5-Workshop/5.13-Cleanup/IAMClean.jpg)
 
-#### 5.11.9. Delete Amazon SES Identity (optional)
+#### 5.13.8. Delete Amazon SES Identity (optional)
 
 If you no longer use the verified email for other purposes:
 1. Access **Amazon SES** → **Identities**.

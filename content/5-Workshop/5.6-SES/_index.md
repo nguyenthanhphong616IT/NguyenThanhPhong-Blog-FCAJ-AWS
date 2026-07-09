@@ -14,19 +14,19 @@ Amazon SES is used to send automated emails to users, including **Weekly Digest*
 4. Select the identity type as **Email address**.
 5. Enter your email address in the **Email address** field.
 
-![Create Identity on SES](/images/5-Workshop/5.6-SES/5.38.png)
+![Create Identity on SES](/images/5-Workshop/5.6-SES/ses1.png)
 **Figure 5.6.1** — Create an Identity (email address) on Amazon SES.
 
 AWS will send a confirmation email to your inbox with the subject *"Amazon Web Services – Email Address Verification Request"*.
 
 6. Open your inbox (check the spam/junk folder as well) and click on the link in the email to verify.
 
-![Confirmation email from AWS SES](/images/5-Workshop/5.6-SES/5.39.png)
+![Confirmation email from AWS SES](/images/5-Workshop/5.6-SES/ses2.png)
 **Figure 5.6.2** — Verification email sent from AWS; you need to click the link to confirm.
 
 7. Return to the **Verified identities** page on the SES Console and check if the Identity status of the email has changed to a green **Verified**.
 
-![Successful Verification](/images/5-Workshop/5.6-SES/5.40.png)
+![Successful Verification](/images/5-Workshop/5.6-SES/ses3.png)
 **Figure 5.6.3** — The Identity status changes to "Verified" (green).
 
 #### Update the sender email in Lambda

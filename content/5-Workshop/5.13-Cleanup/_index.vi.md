@@ -8,7 +8,7 @@ pre: " <b> 5.13. </b> "
 
 Sau khi hoàn thành Workshop, hãy xóa toàn bộ tài nguyên AWS đã tạo để tránh phát sinh chi phí ngoài ý muốn.
 
-#### 5.11.1. Làm rỗng và xóa S3 Bucket
+#### 5.13.1. Làm rỗng và xóa S3 Bucket
 
 1. Truy cập **Amazon S3**.
 2. Chọn bucket `smartcv-resumes-YOUR_NAME`.
@@ -18,7 +18,7 @@ Sau khi hoàn thành Workshop, hãy xóa toàn bộ tài nguyên AWS đã tạo 
 
 ![S3](/images/5-Workshop/5.13-Cleanup/S3.jpg)
 
-#### 5.11.2. Xóa AWS Amplify App
+#### 5.13.2. Xóa AWS Amplify App
 
 1. Truy cập **AWS Amplify**.
 2. Chọn ứng dụng `smartcv-frontend`.
@@ -27,7 +27,7 @@ Sau khi hoàn thành Workshop, hãy xóa toàn bộ tài nguyên AWS đã tạo 
 
 ![Amplify](/images/5-Workshop/5.13-Cleanup/Amplify.jpg)
 
-#### 5.11.3. Xóa Amazon Cognito User Pool
+#### 5.13.3. Xóa Amazon Cognito User Pool
 
 1. Truy cập **Amazon Cognito**.
 2. Chọn User Pool `smartcv-users`.
@@ -35,7 +35,7 @@ Sau khi hoàn thành Workshop, hãy xóa toàn bộ tài nguyên AWS đã tạo 
 
 ![Cognito](/images/5-Workshop/5.13-Cleanup/Cognito.jpg)
 
-#### 5.11.4. Xóa DynamoDB Table
+#### 5.13.4. Xóa DynamoDB Table
 
 1. Truy cập **Amazon DynamoDB** → **Tables**.
 2. Chọn bảng `smartcv`, nhấn **Delete**.
@@ -43,14 +43,14 @@ Sau khi hoàn thành Workshop, hãy xóa toàn bộ tài nguyên AWS đã tạo 
 
 ![DynamoDB](/images/5-Workshop/5.13-Cleanup/DatabaseClear.jpg)
 
-#### 5.11.5. Xóa Lambda Functions
+#### 5.13.5. Xóa Lambda Functions
 
 1. Truy cập **AWS Lambda**.
 2. Chọn từng function: `smartcv-applications`, `smartcv-insights`, `smartcv-settings`, `smartcv-notes`, `smartcv-digest`, `smartcv-followup`, `smartcv-cognito-verify`.
 3. Chọn **Actions** → **Delete** cho từng hàm.
 ![Lambda](/images/5-Workshop/5.13-Cleanup/LambdaClear.jpg)
 
-#### 5.11.7. Xóa API Gateway
+#### 5.13.6. Xóa API Gateway
 
 1. Truy cập **API Gateway**.
 2. Chọn API `SmartCV API`.
@@ -58,7 +58,7 @@ Sau khi hoàn thành Workshop, hãy xóa toàn bộ tài nguyên AWS đã tạo 
 
 ![API Gateway](/images/5-Workshop/5.13-Cleanup/APIClear.jpg)
 
-#### 5.11.8. Xóa IAM Role
+#### 5.13.7. Xóa IAM Role
 
 1. Truy cập **IAM** → **Roles**.
 2. Tìm `SmartCV-Lambda-Role`.
@@ -66,7 +66,7 @@ Sau khi hoàn thành Workshop, hãy xóa toàn bộ tài nguyên AWS đã tạo 
 
 ![IAM Role](/images/5-Workshop/5.13-Cleanup/IAMClean.jpg)
 
-#### 5.11.9. Xóa Amazon SES Identity (tuỳ chọn)
+#### 5.13.8. Xóa Amazon SES Identity (tuỳ chọn)
 
 Nếu không còn dùng email đã verify cho mục đích khác:
 1. Truy cập **Amazon SES** → **Identities**.

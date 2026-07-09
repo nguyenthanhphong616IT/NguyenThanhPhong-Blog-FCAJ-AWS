@@ -12,7 +12,7 @@ DynamoDB uses the **Single-Table Design** model to store all SmartCV data (Appli
 2. Click on **Tables** in the left sidebar, select **Create table**.
 3. Create a table named `smartcv`.
 
-![Create DynamoDB table](/images/5-Workshop/5.2-Prerequisite/5.3.jpg)
+![Create DynamoDB table](/images/5-Workshop/5.2-DynamoDB/5.3.jpg)
 **Figure 5.2.1** — Create the `smartcv` table in DynamoDB.
 
 4. Set up the Primary key:
@@ -24,12 +24,12 @@ DynamoDB uses the **Single-Table Design** model to store all SmartCV data (Appli
    - **Sort key:** `GSI1SK` (String)
    - **Index name:** `GSI1`
 
-![Create GSI1](/images/5-Workshop/5.2-Prerequisite/5.4.jpg)
+![Create GSI1](/images/5-Workshop/5.2-DynamoDB/5.4.jpg)
 **Figure 5.2.2** — Create Global Secondary Index GSI1 (GSI1PK/GSI1SK).
 
 6. Scroll down to the **Time To Live (TTL)** section, enable TTL and set the TTL attribute name to `expiresAt` to automatically delete expired data (e.g., temporary sessions, AI analysis cache).
 
-![Enable TTL](/images/5-Workshop/5.2-Prerequisite/5.5.jpg)
+![Enable TTL](/images/5-Workshop/5.2-DynamoDB/5.5.jpg)
 **Figure 5.2.3** — Enable Time To Live (TTL) with the `expiresAt` attribute.
 
 7. Click **Create table** to complete.

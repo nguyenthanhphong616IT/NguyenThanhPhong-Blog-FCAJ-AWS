@@ -23,14 +23,14 @@ EventBridge dùng để tự động chạy Lambda theo lịch, ví dụ gửi W
 Vì Time zone đã được chọn là **Asia/Saigon**, các giá trị giờ trong cron expression được hiểu theo **giờ địa phương Việt Nam**, không phải UTC. `0 9 * * ? *` = **09:00 sáng mỗi ngày theo giờ Việt Nam** (không phải 2 giờ sáng — đây là lỗi thường gặp khi nhầm giữa giờ UTC và giờ local sau khi đã chọn Time zone).
 {{% /notice %}}
 
-![Tạo Schedule Follow-up](/images/5-Workshop/5.8-EventBridge/5.48.png)
+![Tạo Schedule Follow-up](/images/5-Workshop/5.8-EventBridge/5.42.png)
 
 9. Nhấn **Next**.
 10. Ở phần **Target API**, chọn **AWS Lambda** → **Invoke**.
 11. **Lambda function:** chọn `smartcv-followup`, nhấn **Next**.
 12. Nhấn **Create schedule** để hoàn tất.
 
-![Hoàn tất Schedule](/images/5-Workshop/5.8-EventBridge/5.49.png)
+![Hoàn tất Schedule](/images/5-Workshop/5.8-EventBridge/5.43.png)
 
 #### Tạo Schedule gửi email tổng kết hàng tuần
 
@@ -44,8 +44,9 @@ Vì Time zone đã được chọn là **Asia/Saigon**, các giá trị giờ tr
 8. Nhấn **Next**.
 9. Nhấn **Create schedule**.
 
-![Tạo Schedule Weekly Digest](/images/5-Workshop/5.8-EventBridge/5.50.png)
+![Tạo Schedule Weekly Digest](/images/5-Workshop/5.8-EventBridge/5.44.png)
 
 Cả hai Schedule **Weekly Digest** và **Daily Followup** đã được tạo thành công.
 
-![Danh sách Schedules](/images/5-Workshop/5.8-EventBridge/5.52.png)
+![Danh sách Schedules](/images/5-Workshop/5.8-EventBridge/5.46.png)
+![Danh sách Schedules](/images/5-Workshop/5.8-EventBridge/image51.png)

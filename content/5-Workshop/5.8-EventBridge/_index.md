@@ -23,14 +23,14 @@ EventBridge is used to automatically run Lambda functions on a schedule, such as
 Since the Time zone is set to **Asia/Saigon**, the hour values in the cron expression are interpreted based on **Vietnam local time**, not UTC. `0 9 * * ? *` = **09:00 AM every day Vietnam time** (not 2:00 AM — this is a common mistake when confusing UTC and local time after selecting a Time zone).
 {{% /notice %}}
 
-![Create Follow-up Schedule](/images/5-Workshop/5.8-EventBridge/5.48.png)
+![Create Follow-up Schedule](/images/5-Workshop/5.8-EventBridge/5.42.png)
 
 9. Click **Next**.
 10. In the **Target API** section, select **AWS Lambda** → **Invoke**.
 11. **Lambda function:** select `smartcv-followup`, then click **Next**.
 12. Click **Create schedule** to complete the setup.
 
-![Complete Schedule](/images/5-Workshop/5.8-EventBridge/5.49.png)
+![Complete Schedule](/images/5-Workshop/5.8-EventBridge/5.43.png)
 
 #### Create a Schedule to send weekly summary emails
 
@@ -44,8 +44,9 @@ Since the Time zone is set to **Asia/Saigon**, the hour values in the cron expre
 8. Click **Next**.
 9. Click **Create schedule**.
 
-![Create Weekly Digest Schedule](/images/5-Workshop/5.8-EventBridge/5.50.png)
+![Create Weekly Digest Schedule](/images/5-Workshop/5.8-EventBridge/5.44.png)
 
 Both the **Weekly Digest** and **Daily Followup** schedules have been successfully created.
 
-![Schedules List](/images/5-Workshop/5.8-EventBridge/5.52.png)
+![Schedules List](/images/5-Workshop/5.8-EventBridge/5.46.png)
+![Schedules List](/images/5-Workshop/5.8-EventBridge/image51.png)

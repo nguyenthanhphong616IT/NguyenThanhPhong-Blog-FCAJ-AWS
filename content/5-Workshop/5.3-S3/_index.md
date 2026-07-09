@@ -28,10 +28,10 @@ The S3 bucket will be used to store the project's PDF Resume files. For security
   }
 ]
 ```
-![Create Bucket](/images/5-Workshop/5.3-S3/5.6.png)
+![Create Bucket](/images/5-Workshop/5.3-S3/5.45.png)
 **Figure 5.3.1** — Create the `smartcv-resumes-YOUR_NAME` S3 bucket with Block Public Access enabled.
 
-![Configure CORS](/images/5-Workshop/5.3-S3/5.7.png)
+![Configure CORS](/images/5-Workshop/5.3-S3/5.49.png)
 **Figure 5.3.2** — Configure CORS to allow the Frontend to upload via a Presigned URL.
 
 The `smartcv-resumes-YOUR_NAME` bucket is now ready for Lambda to generate Presigned URLs and integrate file uploads from the Frontend.

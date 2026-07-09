@@ -14,19 +14,19 @@ Amazon SES được sử dụng để gửi email tự động cho người dùn
 4. Chọn loại identity là **Email address**.
 5. Nhập địa chỉ email của bạn vào **Email address**.
 
-![Tạo Identity trên SES](/images/5-Workshop/5.6-SES/5.38.png)
+![Tạo Identity trên SES](/images/5-Workshop/5.6-SES/ses1.png)
 **Hình 5.6.1** — Tạo Identity (email address) trên Amazon SES.
 
 AWS sẽ gửi một email xác nhận đến hòm thư của bạn với tiêu đề *"Amazon Web Services – Email Address Verification Request"*.
 
 6. Mở hộp thư (kiểm tra cả hộp thư rác/spam), click vào đường link trong email để xác minh.
 
-![Email xác nhận từ AWS SES](/images/5-Workshop/5.6-SES/5.39.png)
+![Email xác nhận từ AWS SES](/images/5-Workshop/5.6-SES/ses2.png)
 **Hình 5.6.2** — Email xác minh gửi từ AWS, cần click link để xác nhận.
 
 7. Quay lại trang **Verified identities** trên SES Console, kiểm tra trạng thái (Identity status) của email đã chuyển sang màu xanh **Verified**.
 
-![Xác minh thành công](/images/5-Workshop/5.6-SES/5.40.png)
+![Xác minh thành công](/images/5-Workshop/5.6-SES/ses3.png)
 **Hình 5.6.3** — Trạng thái Identity chuyển thành "Verified" (màu xanh).
 
 #### Cập nhật email người gửi vào Lambda

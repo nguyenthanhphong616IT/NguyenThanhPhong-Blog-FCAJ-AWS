@@ -12,7 +12,7 @@ Amazon Cognito đóng vai trò xác thực người dùng (đăng ký, đăng nh
 2. Nhấn **Create user pool**. Ở mục **Option for sign-in identifiers**, click chọn **Email**.
 3. Các mục còn lại để mặc định, đặt tên user pool là `smartcv-users`.
 
-![Tạo User Pool](/images/5-Workshop/5.4-Cognito/5.8.png)
+![Tạo User Pool](/images/5-Workshop/5.4-Cognito/5.50.png)
 **Hình 5.4.1** — Tạo User Pool `smartcv-users` với sign-in bằng Email.
 
 #### Lấy thông tin cấu hình cho Frontend
@@ -24,5 +24,5 @@ Sau khi tạo xong, cần lấy các thông số để cấu hình React Fronten
 3. Chuyển sang tab **App integration**.
 4. Cuộn xuống phần **App client list**, sao chép **Client ID** của `smartcv-frontend` và lưu ra nháp.
 
-![Lấy thông tin User Pool ID và Client ID](/images/5-Workshop/5.4-Cognito/5.9.png)
+![Lấy thông tin User Pool ID và Client ID](/images/5-Workshop/5.4-Cognito/5.51.png)
 **Hình 5.4.2** — Sao chép User pool ID và Client ID để cấu hình Frontend.
