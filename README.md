@@ -27,25 +27,9 @@ Blog cá nhân gồm các phần chính sau:
 6. **Self-Assessment:** Tự đánh giá kết quả học tập, kỹ năng đạt được và những điểm cần cải thiện.
 7. **Sharing and Feedback:** Ghi nhận phần chia sẻ, phản hồi và kết quả sau quá trình thực hiện.
 
-## Tóm tắt workshop
-
-Workshop hướng dẫn người học tự tay cấu hình các dịch vụ AWS thông qua giao diện AWS Management Console. Thay vì triển khai tự động hoàn toàn bằng Infrastructure as Code, workshop sử dụng cách tiếp cận Click-Ops để người học hiểu rõ vai trò của từng dịch vụ và cách các thành phần trong hệ thống phối hợp với nhau.
-
-Các nội dung triển khai chính gồm:
-
-* Tạo bảng Amazon DynamoDB theo mô hình Single-table để lưu dữ liệu ứng tuyển.
-* Cấu hình Amazon S3 để lưu trữ file Resume PDF.
-* Cấu hình Amazon Cognito để quản lý đăng ký, đăng nhập và xác thực người dùng.
-* Tạo AWS Lambda để xử lý logic backend.
-* Kết nối Amazon API Gateway với Lambda và bảo vệ API bằng Cognito Authorizer.
-* Tích hợp Amazon Bedrock để hỗ trợ phân tích dữ liệu và đưa ra gợi ý bằng AI.
-* Cấu hình Amazon SES và Amazon EventBridge để gửi email tự động.
-* Triển khai frontend bằng AWS Amplify.
-* Theo dõi log bằng Amazon CloudWatch.
-* Dọn dẹp tài nguyên AWS sau khi hoàn thành workshop để tránh phát sinh chi phí.
 
 ## Kết quả đạt được
 
-Sau khi hoàn thành blog và workshop cá nhân, em đã hiểu rõ hơn cách xây dựng một ứng dụng web theo kiến trúc AWS Serverless. Thông qua quá trình triển khai SmartCV, em nắm được cách kết nối frontend, authentication, API, backend, database, storage, AI và automation thành một hệ thống hoàn chỉnh.
+Sau khi hoàn thành blog và workshop cá nhân, em đã hiểu rõ hơn cách xây dựng một ứng dụng web theo kiến trúc AWS Serverless. Thông qua quá trình triển khai, em nắm được cách kết nối frontend, authentication, API, backend, database, storage, AI và automation thành một hệ thống hoàn chỉnh.
 
 Bài blog này là sản phẩm tổng hợp lại quá trình học tập, thực hành và đóng góp cá nhân của em trong chương trình thực tập.
