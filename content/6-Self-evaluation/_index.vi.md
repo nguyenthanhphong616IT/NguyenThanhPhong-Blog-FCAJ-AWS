@@ -7,7 +7,7 @@ pre: " <b> 6. </b> "
 ---
 
 
-Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Việt Nam** từ **17/04/2026** đến **10/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
+Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Việt Nam** từ **17/04/2026** đến **30/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
 Tôi đã tham gia **Dự án SmartCV** – Hệ thống theo dõi và tối ưu hóa hồ sơ xin việc ứng dụng AI trên nền tảng AWS Serverless, với vai trò phụ trách **AWS Infrastructure**, bao gồm thiết kế hạ tầng AWS, xây dựng DynamoDB Single-Table Schema, triển khai CDK, S3, API Gateway, Cognito và CloudFront. Qua đó, tôi cải thiện kỹ năng thiết kế kiến trúc Cloud, triển khai hạ tầng AWS, phân tích hệ thống, làm việc nhóm, viết báo cáo kỹ thuật và giao tiếp với mentor/người hướng dẫn.
 
 Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
